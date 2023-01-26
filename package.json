@@ -1,0 +1,14 @@
+{
+  "name": "test_window.open",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Beatris.Dimitrovaaa@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.4.0"
+  }
+}

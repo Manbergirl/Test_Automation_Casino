@@ -11,12 +11,16 @@ describe('Verify that the user can successfully register an account', () => {
     })
 
     
-    // cy.get('.form-select__toggler .form-select__toggler-icon').select('5')
+    
 
-    // it('Verify that the user can successfully add SecondName:', () => {
-  
-    //     cy.visit("https://winbet.bg/registration")
-    //     cy.get(':nth-child(2) > .form-group > #input-wrapper > .input-group > .form-control').type('Dimitrova')       
-    // })
+    it.only('Verify that the user can successfully add SecondName:', () => {
+        cy.visit("https://winbet.bg/registration")
+        cy.get(':nth-child(2) > .form-group > #input-wrapper > .input-group > .form-control').type('Dimitrova')       
+    
+
+    })
+
+
+ // cy.get('.form-select__toggler .form-select__toggler-icon').select('5')
 
 })
